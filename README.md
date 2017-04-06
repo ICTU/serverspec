@@ -1,4 +1,4 @@
-# Serverspec infrastructure tests
+# Serverspec
 
 Find Dockerfile at 
 
