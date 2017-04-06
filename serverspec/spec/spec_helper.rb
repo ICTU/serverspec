@@ -23,8 +23,8 @@ options[:user] ||= Etc.getlogin
 set :host,        options[:host_name] || host
 set :ssh_options, options
 
-# Disable sudo
-set :disable_sudo, true
+# Do not sudo
+set :disable_sudo, false
 set :os, :family => 'redhat', :release => '7', :arch => 'x86_64'
 
 # Set environment variables
